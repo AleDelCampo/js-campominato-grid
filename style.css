@@ -73,6 +73,26 @@
     align-items: center;
 }
 
-.square.active {
-    background-color: #7fffd4;
+.square-medium {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-expert {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diff-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
